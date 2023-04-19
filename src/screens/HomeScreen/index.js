@@ -5,7 +5,7 @@ import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
 
 const LOGO_ALURA_URL = '/images/alura-logo.svg';
-const SIDE_IMAGE_URL = '/images/alura-cases.png'
+const SIDE_IMAGE_URL = '/images/vitrine-dev.png';
 
 function SideImage() {
   return (
@@ -167,7 +167,7 @@ export default function HomeScreen() {
               >
                 <Box>
                   <Link
-                    href="/faq"
+                    href="https://cursos.alura.com.br/vitrinedev/franklindrw"
                     styleSheet={{
                       display: "inline-flex",
                       alignItems: {
@@ -196,8 +196,23 @@ export default function HomeScreen() {
                         },
                       }}
                     >
-                      O que tem de novo?
+                      Acesse minha vitrine!
                     </Text>
+                  </Link>
+                  <Link
+                    href="/faq"
+                    styleSheet={{
+                      display: "inline-flex",
+                      alignItems: {
+                        xs: "flex-start",
+                        sm: "center",
+                      },
+                      flexDirection: {
+                        xs: "column",
+                        sm: "row",
+                      },
+                    }}
+                  >
                     <Text
                       styleSheet={{
                         textVariant: theme.typography.variants.body4,
@@ -232,7 +247,7 @@ export default function HomeScreen() {
                       color: theme.colors.neutral["900"],
                     }}
                   >
-                    Alura Cases
+                    Franklin Vitrine Alura
                   </Text>
                   <Text
                     as="p"
@@ -242,7 +257,7 @@ export default function HomeScreen() {
                       marginTop: theme.space.x6,
                     }}
                   >
-                    Aqui você vai ter acesso a discussões avançadas: as principais decisões sobre arquitetura e design de sistemas. Aprenda através das descobertas que as principais empresas de tecnologia enfrentam!
+                    Aqui, na vitrine da Alura, você pode conferir meu portfólio completo. Nele, você encontrará todas as minhas formações e cursos realizados aqui na Alura, bem como todos os projetos que desenvolvi com base nos conhecimentos adquiridos. Fique por dentro de tudo o que já criei, desde websites até aplicações mobile.
                   </Text>
                   <Text
                     as="p"
@@ -252,7 +267,7 @@ export default function HomeScreen() {
                       marginTop: theme.space.x6,
                     }}
                   >
-                    Quer testar antes de todo mundo?
+                    Quer solicitar algum projeto freelancer?
                   </Text>
                 </Box>
                 <Box
