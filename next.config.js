@@ -1,4 +1,7 @@
 module.exports = {
+    server:{
+        port: 9080
+    },
     trailingSlash: true,
     async redirects() {
         return [

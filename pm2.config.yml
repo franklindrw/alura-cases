@@ -9,3 +9,6 @@ apps:
     exec_mode: fork
     watch: false
     autorestart: true
+    env_production:
+      PORT: 9080
+    version: "1.0.0"
