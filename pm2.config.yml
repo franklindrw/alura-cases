@@ -1,0 +1,11 @@
+apps:
+  - name: alura-cases-test
+    script: npm
+    args: run start
+    cwd: /home/alura-cases
+    interpreter: none
+    env:
+      NODE_ENV: production
+    exec_mode: fork
+    watch: false
+    autorestart: true
